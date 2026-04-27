@@ -1,0 +1,5 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="#020617" />
+  <rect x="120" y="90" width="660" height="320" rx="20" fill="#1d4ed8" opacity="0.3" />
+  <text x="450" y="260" text-anchor="middle" fill="#f8fafc" font-size="40">AI Bot Case</text>
+</svg>

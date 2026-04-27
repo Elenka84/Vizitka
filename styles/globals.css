@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #07070b;
+  --panel: #11111a;
+  --ink: #f4f3ff;
+  --muted: #b7b5cc;
+  --accent: #8bffb0;
+  --accent-2: #ff6db6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(139, 255, 176, 0.14), transparent 35%),
+    radial-gradient(circle at 84% 8%, rgba(255, 109, 182, 0.16), transparent 28%),
+    radial-gradient(circle at 62% 82%, rgba(126, 93, 255, 0.22), transparent 34%),
+    var(--bg);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+  @apply antialiased;
+}
+
+.container-default {
+  @apply mx-auto w-full max-w-6xl px-4 md:px-6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title), "Segoe UI", sans-serif;
+  letter-spacing: -0.02em;
+}
